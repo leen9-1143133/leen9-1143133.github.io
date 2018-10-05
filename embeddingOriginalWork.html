@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <?xml version="1.0" encoding="UTF-8" ?>
+
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
@@ -33,19 +34,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <h1><b>Harry Barng</b></h1>
   <p>Welcome to the blog of <span class="w3-tag">Harry Barng</span></p>
 </header>
-	<rss version="2.0">
-	<channel>
-		<title>GClass Home Page</title>
-		<link>http://winhost6.ischool.uw.edu/gclass/</link>
-		<description>Get Started with Info 101</description>
-		<item>
-		<title>Info 101 Section AE</title>
-		<link>https://www.facebook.com/groups/2199727913606575/about/</link>
-		<description>Check out my section on Facebook!</description>
-		</item>
-	</channel>
 
-	</rss>
 <!-- Grid -->
 <div class="w3-row">
 
@@ -61,21 +50,52 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
 
     <div class="w3-container">
-		<!-- Autoplay is on, no controls for user, and starts 3 minutes into the video -->
+
+	<!-- Iframe for youtube video of Bob Boiko. Autoplay is on, no controls for user, and starts 3 minutes into the video -->
       <iframe width="560" height="315"
 	  src="https://www.youtube.com/embed/318MpZiOU6Q?start=180&autoplay=1&controls=0"
 	  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 	  </iframe>
-	  <video width="320" height="240" controls>
-	  <source src="https://leen9-1143133.github.io/strategy.mp4" type="video/mp4">
-	Your browser does not support the video tag.
-	</video>
 
+
+	  <!-- Video of Bob Boiko -->
+	<video width="320" height="240" controls>
+	  <source src="https://leen9-1143133.github.io/strategy.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<br>
+
+	<!-- Audio file of Bob Boiko -->
 	<audio controls>
 	  <source src="https://leen9-1143133.github.io/strategy.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 	</audio>
-    </div>
+
+	<br>
+
+	<!-- RSS feed from BBC news -->
+	<script type="text/javascript" src="http://output21.rssinclude.com/output?type=js&amp;id=1194508&amp;hash=67310f034226998d55fc1dbee419ba68"></script>
+
+	<br>
+
+	<!-- Object of another html web page (of the same blog) -->
+	<object width="100%" height="500px" data="https://leen9-1143133.github.io/index.html"></object>
+
+
+	<br>
+	<div class="mapouter">
+		<div class="gmap_canvas">
+			<iframe width="600" height="500" id="gmap_canvas" 
+			src="https://maps.google.com/maps?q=university%20of%20washington&t=&z=13&ie=UTF8&iwloc=&output=embed"
+			frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+			</iframe>
+			<a href="https://www.embedgooglemap.net"></a>
+		</div>
+		<style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+		</style>
+	</div>
+
+    
   </div>
   <hr>
 
