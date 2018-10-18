@@ -1,0 +1,106 @@
+﻿body {
+	background-image: url('dark_wood.png');
+}
+
+p {
+	font-family: "Arial";
+	color: white;
+}
+
+h3 {
+	font-size: 40px;
+	margin-bottom: 0px;
+	outline-style: dotted;
+	outline-color: white;
+}
+
+div {
+	background-color: #8E41D5;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+a {
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+img {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+#Header {
+	width: 500px;
+}
+
+#LeftNav {
+	width: 400px;
+	float: left;
+	padding-bottom: 8px;
+}
+
+#Content {
+	width: 700px;
+	padding: 15px;
+}
+
+#Footer {
+	width: 800px;
+}
+
+div.textbox {
+	border: solid 8px black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: solid 8px black;
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.passion {
+	font-family: "Passion One"
+}
+
+.gold {
+	color: #FFBC00;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
